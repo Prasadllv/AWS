@@ -1,0 +1,52 @@
+Git status
+
+git@github.com:Prasadllv/AWS.git
+https://github.com/Prasadllv/AWS.git
+
+git update global user.name "<name>"
+git update global user.email "<email>"
+
+#display config
+git config --list
+
+#display status
+git status
+
+#git pull origin master
+
+#go to directory
+cd ..
+
+#display file starts with A
+cd A
+
+
+#list files
+ls
+
+#create file
+touch file.txt
+
+vi File.txt
+i #enable cursor to edit
+  #update file
+Escape #disable edit
+:wq #save & quit
+
+
+
+#Display data
+cat File.txt
+cat .git/Folder
+
+#Add file cache
+git add File.txt
+
+#save the changes in file
+git commit -m "comment"
+
+#update the github
+git push
+
+#get latest files to local
+git pull
